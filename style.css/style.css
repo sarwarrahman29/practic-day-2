@@ -1,0 +1,231 @@
+body {
+    background-color: beige;
+}
+
+.content {
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 4em;
+    color: goldenrod;
+}
+
+.list-style {
+    display: flex;
+    list-style: none;
+    font-size: 2em;
+    color: goldenrod;
+}
+
+.list-style li {
+    margin-left: 25px;
+}
+
+.list-style li a {
+    text-decoration: none;
+}
+
+.list-style li a:hover {
+    background-color: lightgrey;
+    color: red;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+/* bannar styles */
+.header {
+    display: flex;
+    padding: 30px 150px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bannar {
+    width: 582px;
+    height: 270px;
+}
+
+.bannar-title {
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+.bannar-sub-title {
+    color: red;
+}
+
+.btn {
+    background-color: lightgreen;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    font-size: 1.5em;
+}
+.bannar-description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+.btn a:hover {
+    color: red;
+}
+
+.camara img {
+    padding-top: 100px;
+    width: 440px;
+    height: 414px;
+}
+
+/* picture styles */
+.picture {
+    padding: 30px 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.picture img {
+    width: 97.06px;
+    height: 28px;
+    border-radius: 10px;
+}
+
+/* popular collection styles */
+.popular-collection-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 150px;
+
+}
+
+.popular-collection-content .popular-images {
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.popular-title {
+    font-size: 35px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.popular-flex-title {
+    font-size: 28px;
+    padding: 10px 0 10px;
+}
+
+.popular-dolar-items {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.popura-discription{
+    padding-top: 15px;
+}
+
+.fa-star.field {
+    color: #FB8200;
+}
+
+/* .fa-star.emty{
+    color: calc(50%, #FB8200);
+} */
+.span {
+    color: #5E6366;
+}
+
+.popura-discription {
+    width: 196px;
+    height: 61px;
+    font-size: 14px;
+    color: #787885;
+}
+
+/* futured-product */
+/* futured-product */
+.futured-product {
+    display: flex;
+    padding: 30px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.futured-title {
+    width: 610px;
+    height: 224px;
+}
+
+.futured-sub-title {
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+
+.futured-discription {
+    color: #6C6C6C;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.button {
+    background-color: #FB8200;
+    border: none;
+    padding: 10px;
+    width: 155px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* footer styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.influencher-product {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.influencher-title{
+    padding-bottom: 15px;
+}
+.influencher-sub-title{
+    padding-bottom: 10px;
+}
+.influencher-description{
+    padding-bottom: 20px;
+}
+.iconses i{
+    font-size: 25px;
+    width: 32px;
+    height: 32px;
+    padding-left: 24px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-widthh: 576px) {
+    .content{
+        flex-direction: coulmn;
+    }
+}
